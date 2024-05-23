@@ -1,0 +1,44 @@
+.rowmovies{
+	margin-top: 50px;
+
+	&__top{
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		align-items: center;
+		gap: 10px;
+
+		&-title{
+			display: flex;
+			align-items: center;
+			gap: 5px;
+
+			img{
+				width: 40px;
+			}
+		}
+
+		.hr{
+			width: 100%;
+			height: 2px;
+			background-color: rgba(80, 74, 121, .5);
+		}
+
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+
+	&__list{
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 20px;
+		margin-top: 20px;
+	}
+	
+	&__load-more{
+		display: flex;
+		justify-content: center;
+	}
+
+	
+}

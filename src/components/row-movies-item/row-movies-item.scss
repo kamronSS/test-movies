@@ -1,0 +1,31 @@
+.moviesitem{
+	cursor: pointer;
+	margin-bottom: 20px;
+
+	h2{
+		font-size: 18px;
+	}
+
+	img{
+		width: 100%;
+		transition: all .3s ease;
+
+		&:hover{
+			transform: scale(1.05);
+		}
+	}
+
+	&-descr{
+		margin-top: 5px;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+
+		.dot{
+			width: 5px;
+			height: 5px;
+			border-radius: 100%; 
+			background-color: red;
+		}
+	}
+}
